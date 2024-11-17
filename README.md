@@ -4,7 +4,7 @@ Configuration files for running Proxmox behind an Nginx reverse proxy. Connectio
 ## Requirements
 + Working Proxmox instance with GUI accessible through local port 8006 via https
 + Nginx version greater than 1.22.1
-+ Nginx stream module enabled. If your missing it, you can install it with the following:
++ Nginx stream module enabled. You can install it with the following:
 ```bash
 apt install libnginx-mod-stream
 systemctl restart nginx
